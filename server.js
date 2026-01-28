@@ -7,8 +7,11 @@ app.use(express.json());
 //  routes
 app.use("/api/images", imageRoutes);
 
-let port = 8000;
 
+
+
+
+let port = 8000;
 app.listen(port, () =>
   console.log(`port is running on: ${port}\n -> http://localhost:${port}`)
 );
